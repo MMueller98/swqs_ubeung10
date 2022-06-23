@@ -1,0 +1,8 @@
+# ignore NotInGitFile.txt
+NotInGitFile.txt
+
+# ignore pdf-files
+*.pdf
+
+
+
