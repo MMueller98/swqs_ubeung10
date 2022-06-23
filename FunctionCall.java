@@ -10,6 +10,10 @@ public class FunctionCall {
 	System.out.println ("Inside funct1");
     }
 
+    public static void newFeature () {
+	System.out.println ("This is a new Feature!");
+    }
+
     public static void main (String[] args) {
 	int val;
 	System.out.println ("Inside main");
@@ -20,6 +24,7 @@ public class FunctionCall {
 	System.out.println ("About to call funct2 again");
 	val = funct2(-3);
 	System.out.println ("funct2 returned a value of " + val);
+
     }
 
 
